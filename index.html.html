@@ -1,0 +1,58 @@
+<div class="app">
+
+  <!-- LOGIN PAGE -->
+  <div id="loginPage" class="page activePage">
+    <h2>Login</h2>
+    <input type="text" placeholder="Enter Mobile Number" id="mobile">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- MAIN APP -->
+  <div id="mainApp" class="hidden">
+
+    <!-- Top Bar -->
+    <div class="topbar">
+      <div>Rajkot Rajpath Ltd.</div>
+      <span class="material-icons">account_circle</span>
+    </div>
+
+    <!-- Search -->
+    <div class="search-container">
+      <div class="search-box">
+        <span class="material-icons">search</span>
+        <span>તમે ક્યાં જવા માંગો છો?</span>
+      </div>
+    </div>
+
+    <!-- MENU GRID -->
+    <div class="menu-grid">
+      <div class="menu-item" onclick="showBooking()">
+        <span class="material-icons">confirmation_number</span>
+        <p>Buy Ticket</p>
+      </div>
+      <div class="menu-item">
+        <span class="material-icons">directions_bus</span>
+        <p>Routes</p>
+      </div>
+      <div class="menu-item">
+        <span class="material-icons">badge</span>
+        <p>Pass</p>
+      </div>
+      <div class="menu-item">
+        <span class="material-icons">help</span>
+        <p>Help</p>
+      </div>
+    </div>
+
+    <!-- BOOKING PAGE -->
+    <div id="bookingPage" class="hidden section">
+      <h3>Book Ticket</h3>
+      <input type="text" placeholder="From">
+      <input type="text" placeholder="To">
+      <input type="date">
+      <button>Confirm Booking</button>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+}
+
+/* Login Page */
+#loginPage {
+  max-width: 400px;
+  margin: 100px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+#loginPage input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#loginPage button {
+  padding: 10px;
+  width: 100%;
+  background: #4aa3a2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Main App */
+.app {
+  max-width: 420px;
+  margin: auto;
+}
+
+.topbar {
+  background: #4aa3a2;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-container {
+  padding: 15px;
+}
+
+.search-box {
+  background: #e6e6e6;
+  padding: 12px;
+  border-radius: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 15px;
+}
+
+.menu-item {
+  background: #cde1ea;
+  border-radius: 15px;
+  padding: 15px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-item .material-icons {
+  font-size: 28px;
+}
+
+.section {
+  padding: 15px;
+}
+
+.section input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.section button {
+  padding: 10px;
+  width: 100%;
+  background: #4aa3a2;
+  color: white;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
